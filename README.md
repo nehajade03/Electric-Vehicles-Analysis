@@ -25,6 +25,32 @@ The primary goals of this dashboard are to:
 
 The dataset contains information about electric vehicle models, manufacturers, states, CAFV eligibility, and battery range. The data is structured and processed using Excel formulas, PivotTables, and dynamic filtering for smooth interactivity.
 
+## 📊 Manual City-wise EV Summary (Using Excel Formulas) & Conditional Formatting
+
+The following formulas were used to manually generate a city-wise Electric Vehicle (EV) summary in Excel:
+
+| Metric | Formula | 
+|:---|:---|
+| Unique City List | `=UNIQUE(EV_Data!A2:A177826)` |
+| Total EVs by City | `=COUNTIF(EV_Data!A:A, B5)` |
+| Electric Utility by City | `=VLOOKUP(B5, EV_Data!A:M, 13, FALSE)` |
+| Average Electric Range | `=AVERAGEIFS(EV_Data!J:J, EV_Data!A:A, B5)` |
+| Max Base MSRP | `=MAXIFS(EV_Data!J:J, EV_Data!A:A, B5)` |
+| City-wise % Share of EVs | `=COUNTIF(EV_Data!A:A, B5) / COUNTA(EV_Data!A:A) * 100` |
+
+This manual approach was performed alongside VBA automation to cross-verify the data accuracy and enhance reporting.
+
+---
+Conditional Formatting Applied:
+- **Headers** styled with bright green background and bold text.
+- **Total EVs** column color-coded from yellow (low) to green (high) using gradient scale.
+- **City-wise % Share of Total EVs** visualized with blue data bars for easier comparison.
+- **Consistent black borders** for clean table presentation.
+
+This manual method ensured cross-verification with automated VBA processes, enhancing both accuracy and report presentation quality.
+
+
+
 ## Dashboard 
 ![image](https://github.com/user-attachments/assets/4d70cd9a-8e0b-4105-b908-e065361406a2)
 
