@@ -49,6 +49,14 @@ This manual approach was performed alongside VBA automation to cross-verify the 
 
 This manual method ensured cross-verification with automated VBA processes, enhancing both accuracy and report presentation quality.
 
+## Pivot tables
+![image](https://github.com/user-attachments/assets/3490bae0-0906-4926-9412-16fc41ea3178)
+
+![image](https://github.com/user-attachments/assets/60c7939d-5d69-4d0a-8449-40d1d94101a6)
+
+![image](https://github.com/user-attachments/assets/1e82b03f-3473-498b-b128-01baaa2086a6)
+
+
 
 
 ## Dashboard 
