@@ -41,7 +41,7 @@ The following formulas were used to manually generate a city-wise Electric Vehic
 This manual approach was performed alongside VBA automation to cross-verify the data accuracy and enhance reporting.
 
 ---
-Conditional Formatting Applied:
+## Conditional Formatting Applied:
 - **Headers** styled with bright green background and bold text.
 - **Total EVs** column color-coded from yellow (low) to green (high) using gradient scale.
 - **City-wise % Share of Total EVs** visualized with blue data bars for easier comparison.
