@@ -104,3 +104,31 @@ The **Electric Vehicles Analysis Dashboard** in Excel provides a powerful and in
 - **Policymakers** planning EV infrastructure.
 - **Researchers & Analysts** studying EV adoption patterns.
 
+
+# Electric Vehicles Analysis Report (VBA)
+
+This project contains a VBA macro (`GenerateEVReport`) that analyzes electric vehicle (EV) data stored in an Excel worksheet and generates a summary report.
+
+## Features
+- Top selling city
+- Most popular EV make
+- Most popular EV model
+- Year-wise vehicle distribution
+
+## How to Use
+1. Place your EV data in an Excel sheet named `EV_Data`.
+2. Make sure the columns are:
+   - Column A: City
+   - Column D: Model Year
+   - Column E: Make
+   - Column F: Model
+3. Run the `GenerateEVReport` macro.
+4. The report will be generated in a new sheet called `EV_Report`.
+
+## Requirements
+- Microsoft Excel
+- VBA enabled
+
+---
+*Created by Neha Jade*
+
